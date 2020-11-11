@@ -1,3 +1,6 @@
 mkdocs.yml
 docs/
     index.md
+    projeto.md
+    simul.md
+    LICENSE
