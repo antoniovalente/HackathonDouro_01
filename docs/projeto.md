@@ -5,28 +5,32 @@ O projeto piloto demonstrador das potencialidades de uma rede de comunicações,
 
 A especificação LoRaWAN® é um protocolo de rede de baixa potência e para áreas amplas (LPWA) projetado para conectar, sem fios, 'coisas' alimentados por bateria, à internet em redes regionais, nacionais ou globais, e visa os principais requisitos da Internet das coisas (IoT), como serviços de comunicação bi-direcional, segurança ponta a ponta, mobilidade e localização.
 
+## Gateways
+
 Devido às limitações de tempo foi necessário utilizar as três gateways que já possuíamos. Trata-se uma gateway industrial da empresa [RAKWireless](https://www.rakwireless.com/en-us) ([RAK7249](https://www.rakwireless.com/en-us/products/lpwan-gateways-and-concentrators/rak7249)). Esta gateways possui 16 canais, GPS, e GSM/LTE (ligação de dados 4G). No entanto, necessita de ligação à rede elétrica pois ainda não foram adquiridos os paineies solares e baterias.  
 
 Com os requisitos dos locais como sendo a altitude, ligação à rede e alguma abrangência, os locais selecionados para a colocação das três gateways foram: A capela de S. Leonardo da Galafura (excelente local a cerca de 700m de altitude e a capela está eletrificada); a Quinta do Crasto (local onde o grupo já tem projetos em curso); e a Quinta do Seixo (local com alguma altitude e que se situa na margem sul do Rio Douro).
 
-Gateway Capela de S. Vicente da Galafura
-----------------------------------------
-
-![Gateway 01](https://github.com/antoniovalente/HackathonDouro_01/blob/main/images/20201106_103335.jpg)
+### Gateway Capela de S. Vicente da Galafura
 
 
-Gateway Quinta do Seixo
------------------------------------------
-![Gateway 02](https://github.com/antoniovalente/HackathonDouro_01/blob/main/images/IMG_20201106_125408.jpg)
-
-Gateway Quinta do Crasto
-----------------------------------------
-![Gateway 02](https://github.com/antoniovalente/HackathonDouro_01/blob/main/images/IMG_20201106_163901.jpg)
+![Gateway 01](images/20201106_103335.jpg)
 
 
+### Gateway Quinta do Seixo
 
-Módulos Sensores
-------------------------------------------
+
+![Gateway 02](images/IMG_20201106_125408.jpg)
+
+### Gateway Quinta do Crasto
+
+
+![Gateway 02](main/images/IMG_20201106_163901.jpg)
+
+
+
+## Módulos Sensores
+
 
 Os módulos sensores foram desenvolvidos por António Valente ([IoT AgroIntelligence Node](https://github.com/antoniovalente/IoT-AgroIntelligence-Node)). Estes módulo, baseados no [CubeCell Development Board](https://heltec.org/project/htcc-ab01/), podem conter diversos tipos de sensores. Neste projeto foram utilizados os seguintes sensores:
 
@@ -38,16 +42,16 @@ Os módulos sensores foram desenvolvidos por António Valente ([IoT AgroIntellig
 
 Foram desenvolvidos nove módulos sensores, quatro com sensores Watermark, três com sensores BME680, um com o sensor 5TE e outro com a estação meteorológica ATMOS41. Os sensores foram distribuídos pelas três quintas do douro da seguinte forma: Quinta do Seixo - dois sensores Watermark e um BME680; Quinta do Infantado - um sensor Watermark e um BME680; Quinta do Crasto - um sensor Watermark, um BME680, um 5TE e a estação ATMOS41. A Quinta do Crasto possuí mais sensores pois já existe um historial de colaborações em projectos em conjunto com a [Altice Labs](https://www.alticelabs.com/pt/444-altice-labs-contribui-para-artigo-cientifico-na-area-de-iot-aplicado-a-vinicultura.html), a [Globaltronic](https://globaltronic.pt/) e a [Geodouro](http://www.geodouro.pt/index.php.
 
-Quinta do Seixo
------------------
+### Quinta do Seixo
 
 
-Quinta do Infantado
--------------------
+
+### Quinta do Infantado
 
 
-Quinta do Crasto
--------------------
+
+### Quinta do Crasto
+
 
 
 
