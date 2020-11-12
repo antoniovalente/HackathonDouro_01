@@ -1,6 +1,10 @@
 mkdocs.yml
-docs/
-    index.md
-    projeto.md
-    simul.md
+site_name: Hackathon Douro & Porto - Rede de Comunicação
+nav:
+    - Home: index.md
+    - Projeto: projeto.md
+    - Simulações: simul.md
+    - Resultados: resultados.md
+    - Conclusões: conclusoes.md
+    - About: about.md
     LICENSE
