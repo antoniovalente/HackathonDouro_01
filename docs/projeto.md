@@ -11,6 +11,11 @@ Devido às limitações de tempo foi necessário utilizar as três gateways que 
 
 Com os requisitos dos locais como sendo a altitude, ligação à rede e alguma abrangência, os locais selecionados para a colocação das três gateways foram: A capela de S. Leonardo da Galafura (excelente local a cerca de 700m de altitude e a capela está eletrificada); a Quinta do Crasto (local onde o grupo já tem projetos em curso); e a Quinta do Seixo (local com alguma altitude e que se situa na margem sul do Rio Douro).
 
+#### Localização das Gateways
+
+![Gateways Local](../images/GatewaysLoc.jpg)
+
+
 ### Gateway Capela de S. Vicente da Galafura
 
 
