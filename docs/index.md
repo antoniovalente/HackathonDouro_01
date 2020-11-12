@@ -15,9 +15,12 @@ A proposta
 
 A proposta apresentada pela nossa equipa tem dois grandes pontos:
 
-1. Projeto demonstrador das potencialidades da tecnologia, e da mais-valia para a agricultura no Douro, consistindo em três gateways LoRaWAN e, sensores no terreno;
+1. [Projeto demonstrador](projeto.md) das potencialidades da tecnologia, e da mais-valia para a agricultura no Douro, consistindo em três gateways LoRaWAN e, sensores no terreno;
 
-1. Avaliação dos locais onde colocar as gateway de modo a cobrir uma grande parte das quintas do Douro, e respetivos respectivos custos.
+1. [Avaliação](simul.md) dos locais onde colocar as gateway de modo a cobrir uma grande parte das quintas do Douro, e respetivos respectivos custos.
+
+
+<iframe width="1903" height="749" src="https://www.youtube.com/embed/U12pQMDb9zc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 [![CC BY 4.0](https://i.creativecommons.org/l/by/4.0/88x31.png)](http://creativecommons.org/licenses/by/4.0/)
