@@ -1,5 +1,5 @@
 # HackathonDouro_01
-Documentos do Desafio #1 (Rede de Comunicação) da Hackathon Douro &amp; Porto
+[Documentos do Desafio #1 (Rede de Comunicação)](docs/index.md) da Hackathon Douro &amp; Porto
 
 
 Todos os ficheiros de documentação, imagens e vídeos estão licenciados através da [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/>)
