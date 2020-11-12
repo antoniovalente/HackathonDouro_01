@@ -44,25 +44,25 @@ Foram desenvolvidos nove módulos sensores, quatro com sensores Watermark, três
 
 ### Quinta do Seixo
 
-![Seixo01](..\images\20201106_124316.jpg)
+![Seixo01](../images/20201106_124316.jpg)
 
-![Seixo01](..\images\20201106_125040.jpg)
+![Seixo01](../images/20201106_125040.jpg)
 
-![Seixo01](..\images\20201106_125056.jpg)
+![Seixo01](../images/20201106_125056.jpg)
 
 ### Quinta do Infantado
 
-![Seixo01](..\images\20201106_151835.jpg)
+![Seixo01](../images/20201106_151835.jpg)
 
-![Seixo01](..\images\20201106_151841.jpg)
+![Seixo01](../images/20201106_151841.jpg)
 
 ### Quinta do Crasto
 
-![Seixo01](..\images\20201106_165847.jpg)
+![Seixo01](../images/20201106_165847.jpg)
 
-![Seixo01](..\images\IMG_20201106_164702.jpg)
+![Seixo01](../images/IMG_20201106_164702.jpg)
 
-![Seixo01](..\images\20201106_125839.jpg)
+![Seixo01](../images/20201106_125839.jpg)
 
 
 
