@@ -1,7 +1,15 @@
 Hackathon Douro & Porto
 ========================
 
-Desafio #1 - Rede de Comunições
+No âmbito do Congresso “Douro e Porto – Memória com Futuro”, organizado pelo Instituto do Vinho do Douro e do Porto, teve lugar uma maratona de trabalho intensivo ([Hackathon Douro & Porto](https://hackdouroeporto.com/)) com o intuito de desenvolver soluções para desafios relevantes da Região Demarcada do Douro.
+
+A sessão de apresentação teve lugar no dia 11 de novembro de 2020, pelas 18h00 e foi trasmitida live no Facebook.
+
+<iframe width="1903" height="749" src="https://www.youtube.com/embed/u6_re17yoUk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+A nossa equipa ([António Valente](http://www.avalente.utad.pt/) e Salviano Soares com a colaboração do Telmo Fernandes do IPL) ficou responsável pelo Desafio #1 - Rede de Comunicações.
+
+### Desafio #1 - Rede de Comunições
 
 O desafio
 --------------
