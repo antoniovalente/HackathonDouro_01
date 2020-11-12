@@ -20,3 +20,4 @@ A proposta apresentada pela nossa equipa tem dois grandes pontos:
 1. Avaliação dos locais onde colocar as gateway de modo a cobrir uma grande parte das quintas do Douro, e respetivos respectivos custos.
 
 
+[![CC BY 4.0](https://i.creativecommons.org/l/by/4.0/88x31.png)](http://creativecommons.org/licenses/by/4.0/)
