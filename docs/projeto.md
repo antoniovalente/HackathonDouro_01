@@ -14,18 +14,18 @@ Com os requisitos dos locais como sendo a altitude, ligação à rede e alguma a
 ### Gateway Capela de S. Vicente da Galafura
 
 
-![Gateway 01](images/20201106_103335.jpg)
+![Gateway 01](../images/20201106_103335.jpg)
 
 
 ### Gateway Quinta do Seixo
 
 
-![Gateway 02](images/IMG_20201106_125408.jpg)
+![Gateway 02](../images/IMG_20201106_125408.jpg)
 
 ### Gateway Quinta do Crasto
 
 
-![Gateway 02](main/images/IMG_20201106_163901.jpg)
+![Gateway 02](../images/IMG_20201106_163901.jpg)
 
 
 
@@ -44,14 +44,25 @@ Foram desenvolvidos nove módulos sensores, quatro com sensores Watermark, três
 
 ### Quinta do Seixo
 
+![Seixo01](..\images\20201106_124316.jpg)
 
+![Seixo01](..\images\20201106_125040.jpg)
+
+![Seixo01](..\images\20201106_125056.jpg)
 
 ### Quinta do Infantado
 
+![Seixo01](..\images\20201106_151835.jpg)
 
+![Seixo01](..\images\20201106_151841.jpg)
 
 ### Quinta do Crasto
 
+![Seixo01](..\images\20201106_165847.jpg)
+
+![Seixo01](..\images\IMG_20201106_164702.jpg)
+
+![Seixo01](..\images\20201106_125839.jpg)
 
 
 
