@@ -4,24 +4,24 @@ No início do projeto foram considerados quatro locais para a colocação das ga
 
 ## Galafura
 
-![SimulGalafura](../images/simulGalafura.jpg)
+![SimulGalafura](https://i.imgur.com/UmKdbNy.jpg)
 
 ## Quinta do Crasto
 
-![SimulCrasto](../images/simulCrasto.jpg)
+![SimulCrasto](https://i.imgur.com/9nclQEC.jpg)
 
 ## Quinta do Infantado
 
-![SimulInfantado](../images/simulInfantado.jpg)
+![SimulInfantado](https://i.imgur.com/WsHWmdP.jpg)
 
 ## Quinta do Seixo
 
-![SimulSeixo](../images/simulSeixo.jpg)
+![SimulSeixo](https://i.imgur.com/Bnmk0UY.jpg)
 
 
 ## Global
 
-![SimulGlobal](../images/simulGlobal.jpg)
+![SimulGlobal](https://i.imgur.com/qwBvlk2.jpg)
 
 
 ## Ficheiros das Simulações (KMZ)
