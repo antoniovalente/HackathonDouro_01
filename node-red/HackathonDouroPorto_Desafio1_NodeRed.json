@@ -1,0 +1,349 @@
+[
+    {
+        "id": "82a8e223.5ba3f",
+        "type": "openweathermap in",
+        "z": "c14dce6b.e174b",
+        "name": "IoTAgroIntelligence",
+        "wtype": "current",
+        "lon": "-7.63289262",
+        "lat": "41.16678420",
+        "city": "",
+        "country": "",
+        "language": "en",
+        "x": 1490,
+        "y": 1020,
+        "wires": [
+            [
+                "b3aefa30.c77c78",
+                "8ff5437e.56924",
+                "61e5365f.04ea08",
+                "a9b4f8c6.b97b58",
+                "9a7deca4.be0e8",
+                "2495062f.93820a",
+                "c172566.f309fa8",
+                "e47c1f8.d42c6e",
+                "626e45a0.b0b4ac"
+            ]
+        ]
+    },
+    {
+        "id": "b3aefa30.c77c78",
+        "type": "debug",
+        "z": "c14dce6b.e174b",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "x": 1750,
+        "y": 980,
+        "wires": []
+    },
+    {
+        "id": "8ff5437e.56924",
+        "type": "function",
+        "z": "c14dce6b.e174b",
+        "name": "Weather",
+        "func": "var t=msg; //acquire the properties of msg\n t.payload=msg.payload.weather + \", \" + msg.payload.detail;\n\nreturn t;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 1740,
+        "y": 1060,
+        "wires": [
+            [
+                "a075244f.f0c018"
+            ]
+        ]
+    },
+    {
+        "id": "61e5365f.04ea08",
+        "type": "function",
+        "z": "c14dce6b.e174b",
+        "name": "Icon",
+        "func": "var t=msg; //acquire the properties of msg\n  t.payload = \"<img src='http://openweathermap.org/img/wn/\" + msg.payload.icon + \"@2x.png'>\";\n\nreturn t;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 1730,
+        "y": 1100,
+        "wires": [
+            [
+                "62771184.27d1d"
+            ]
+        ]
+    },
+    {
+        "id": "a9b4f8c6.b97b58",
+        "type": "function",
+        "z": "c14dce6b.e174b",
+        "name": "Temperature",
+        "func": "var t=msg; //acquire the properties of msg\n t.payload=msg.payload.tempc + \" ºC\";\n\nreturn t;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 1750,
+        "y": 1180,
+        "wires": [
+            [
+                "68c49b48.d17e44"
+            ]
+        ]
+    },
+    {
+        "id": "9a7deca4.be0e8",
+        "type": "function",
+        "z": "c14dce6b.e174b",
+        "name": "Humidity",
+        "func": "var t=msg; //acquire the properties of msg\n t.payload=msg.payload.humidity + \"0 %\";\n\nreturn t;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 1740,
+        "y": 1220,
+        "wires": [
+            [
+                "2602b3c1.ab09fc"
+            ]
+        ]
+    },
+    {
+        "id": "2495062f.93820a",
+        "type": "function",
+        "z": "c14dce6b.e174b",
+        "name": "Pressure",
+        "func": "var t=msg; //acquire the properties of msg\n t.payload=msg.payload.pressure + \" hPa\";\n\nreturn t;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 1740,
+        "y": 1260,
+        "wires": [
+            [
+                "5bfc462b.189748"
+            ]
+        ]
+    },
+    {
+        "id": "c172566.f309fa8",
+        "type": "function",
+        "z": "c14dce6b.e174b",
+        "name": "max min",
+        "func": "var t=msg; //acquire the properties of msg\n  t.payload = \"max: \" + msg.payload.temp_maxc + \" ºC, min: \" + msg.payload.temp_minc + \" ºC\";\n\nreturn t;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 1740,
+        "y": 1140,
+        "wires": [
+            [
+                "aeaecdf9.9bf8d"
+            ]
+        ]
+    },
+    {
+        "id": "e47c1f8.d42c6e",
+        "type": "function",
+        "z": "c14dce6b.e174b",
+        "name": "Wind Speed",
+        "func": "var t=msg; //acquire the properties of msg\n t.payload=msg.payload.windspeed + \" m/s\";\n\nreturn t;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 1750,
+        "y": 1300,
+        "wires": [
+            [
+                "326e8c9f.ee20a4"
+            ]
+        ]
+    },
+    {
+        "id": "626e45a0.b0b4ac",
+        "type": "function",
+        "z": "c14dce6b.e174b",
+        "name": "Wind Direction",
+        "func": "var t=msg; //acquire the properties of msg\n t.payload=msg.payload.winddirection + \" º\";\n\nreturn t;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 1760,
+        "y": 1340,
+        "wires": [
+            [
+                "a42bfd9b.cddbd"
+            ]
+        ]
+    },
+    {
+        "id": "a075244f.f0c018",
+        "type": "ui_text",
+        "z": "c14dce6b.e174b",
+        "group": "dfe91fdd.d5ce9",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "Weather",
+        "label": "Weather",
+        "format": "{{msg.payload}}",
+        "layout": "row-center",
+        "x": 1980,
+        "y": 1060,
+        "wires": []
+    },
+    {
+        "id": "62771184.27d1d",
+        "type": "ui_text",
+        "z": "c14dce6b.e174b",
+        "group": "dfe91fdd.d5ce9",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "name": "Icon",
+        "label": "",
+        "format": "{{msg.payload}}",
+        "layout": "row-center",
+        "x": 1970,
+        "y": 1100,
+        "wires": []
+    },
+    {
+        "id": "aeaecdf9.9bf8d",
+        "type": "ui_text",
+        "z": "c14dce6b.e174b",
+        "group": "dfe91fdd.d5ce9",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "name": "max min",
+        "label": "",
+        "format": "{{msg.payload}}",
+        "layout": "row-center",
+        "x": 1980,
+        "y": 1140,
+        "wires": []
+    },
+    {
+        "id": "68c49b48.d17e44",
+        "type": "ui_text",
+        "z": "c14dce6b.e174b",
+        "group": "dfe91fdd.d5ce9",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "name": "Temperature",
+        "label": "Temperature",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "x": 1990,
+        "y": 1180,
+        "wires": []
+    },
+    {
+        "id": "2602b3c1.ab09fc",
+        "type": "ui_text",
+        "z": "c14dce6b.e174b",
+        "group": "dfe91fdd.d5ce9",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "name": "Humidity",
+        "label": "Humidity",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "x": 1980,
+        "y": 1220,
+        "wires": []
+    },
+    {
+        "id": "5bfc462b.189748",
+        "type": "ui_text",
+        "z": "c14dce6b.e174b",
+        "group": "dfe91fdd.d5ce9",
+        "order": 6,
+        "width": 0,
+        "height": 0,
+        "name": "Pressure",
+        "label": "Pressure",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "x": 1980,
+        "y": 1260,
+        "wires": []
+    },
+    {
+        "id": "326e8c9f.ee20a4",
+        "type": "ui_text",
+        "z": "c14dce6b.e174b",
+        "group": "dfe91fdd.d5ce9",
+        "order": 7,
+        "width": 0,
+        "height": 0,
+        "name": "Wind Speed",
+        "label": "Wind Speed",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "x": 1990,
+        "y": 1300,
+        "wires": []
+    },
+    {
+        "id": "a42bfd9b.cddbd",
+        "type": "ui_text",
+        "z": "c14dce6b.e174b",
+        "group": "dfe91fdd.d5ce9",
+        "order": 8,
+        "width": 0,
+        "height": 0,
+        "name": "Wind Direction",
+        "label": "Wind Direction",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "x": 2000,
+        "y": 1340,
+        "wires": []
+    },
+    {
+        "id": "e2942a85.6def78",
+        "type": "ui_worldmap",
+        "z": "c14dce6b.e174b",
+        "group": "dfe91fdd.d5ce9",
+        "order": 9,
+        "width": 8,
+        "height": 7,
+        "name": "",
+        "lat": "41.16411600",
+        "lon": "-7.62801200",
+        "zoom": "18",
+        "layer": "OSM grey",
+        "cluster": "",
+        "maxage": "",
+        "usermenu": "hide",
+        "layers": "show",
+        "panit": "false",
+        "panlock": "false",
+        "zoomlock": "false",
+        "hiderightclick": "true",
+        "coords": "none",
+        "showgrid": "false",
+        "path": "/worldmap",
+        "x": 2340,
+        "y": 1140,
+        "wires": []
+    },
+    {
+        "id": "dfe91fdd.d5ce9",
+        "type": "ui_group",
+        "z": "",
+        "name": "Weather Info",
+        "tab": "f491bb47.507b28",
+        "order": 1,
+        "disp": true,
+        "width": 8,
+        "collapse": false
+    },
+    {
+        "id": "f491bb47.507b28",
+        "type": "ui_tab",
+        "z": "",
+        "name": "Hackathon Douro & Porto",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    }
+]
