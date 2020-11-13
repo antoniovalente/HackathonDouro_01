@@ -1,5 +1,8 @@
 mkdocs.yml
 site_name: Hackathon Douro & Porto - Rede de Comunicação
+repo_url: https://github.com/antoniovalente/HackathonDouro_01/
+site_author: Antonio Valente
+site_description: Desafio 1 - Implementação de uma Rede de Comunicação LoRaWAN na RDD
 nav:
     - Home: index.md
     - Projeto: projeto.md
