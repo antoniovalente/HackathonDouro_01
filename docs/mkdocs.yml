@@ -7,4 +7,22 @@ nav:
     - Resultados: resultados.md
     - Conclusões: conclusoes.md
     - About: about.md
+docs/
+    index.md
+    projeto.
+    simul.md
+    resultados.md
+    conclusoes.md
+    about.md
     LICENSE
+    images/
+          GatewaysLoc.jpg
+          simulCrasto.jpg
+          simulGalafura.jpg
+          simulInfantado.jpg
+          simulGlobal.jpg
+          simulSeixo.jpg
+          TTNGateway01.jpg
+          TTNGateway03.jpg
+
+
