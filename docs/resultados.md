@@ -13,8 +13,6 @@ A gateway da Quinta do Crasto,devido a problemas de cobertura GSM/LTE no local d
 
 ![TTN Gateways Regist](../images/TTNGateway03.jpg)
 
-[![CC BY 4.0](https://i.creativecommons.org/l/by/4.0/88x31.png)](http://creativecommons.org/licenses/by/4.0/)
-
 ## Resultados das Comunicações dos Sensores
 
 Embora a gateway da Quinta do Crasto tenha ficado inoperacional todos os nove sensores conseguiram comunicar. Por exemplo, um sensor da Quinta do Seixo comunicou os seus dados através de três gateways: a gateway instalada na Galafura (dista 9.8 km do sensor), a gateway da própria Quinta do Seixo (menos de 1km) e uma outra gateway desconhecida. 
