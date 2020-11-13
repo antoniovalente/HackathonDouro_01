@@ -12,7 +12,7 @@ implementação de IoT na Região Demarcada do Douro
 democratizadora, colaborativa e inclusiva, com uma grande capacidade de estímulo a inovação  
 
 * Toda a documentação estará disponível em https://github.com/antoniovalente/HackathonDouro_01
-e em https://hackathon-douro-porto-desafio-1.readthedocs.io/pt/main/
+e em https://hackathon-douro-porto-desafio-1.readthedocs.io/
 
   
 
