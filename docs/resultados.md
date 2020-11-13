@@ -5,34 +5,33 @@ Em todas as três gateways foram colocados cartões GSM/LTE da operadora MEO, co
 ## Exemplo do Registo da Gateway da Galafura
 
 
-![TTN Gateway 01](../images/TTNGateway01.jpg)
+![TTN Gateway 01](https://i.imgur.com/jdo7tbe.jpg)
 
 ## Estado das Gateways
 
 A gateway da Quinta do Crasto,devido a problemas de cobertura GSM/LTE no local destinado à sua colocação, não se conseguiu conetar à TheThingsNetwork.
 
-![TTN Gateways Regist](../images/TTNGateway03.jpg)
+![TTN Gateways Regist](https://i.imgur.com/uOcDCFZ.jpg)
 
 ## Resultados das Comunicações dos Sensores
 
 Embora a gateway da Quinta do Crasto tenha ficado inoperacional todos os nove sensores conseguiram comunicar. Por exemplo, um sensor da Quinta do Seixo comunicou os seus dados através de três gateways: a gateway instalada na Galafura (dista 9.8 km do sensor), a gateway da própria Quinta do Seixo (menos de 1km) e uma outra gateway desconhecida. 
 
-![Sensor03](../images/Sensor03Gateways.jpg)
+![Sensor03](https://i.imgur.com/7xeNlqk.jpg)
 
 O panorama das comunicações entre sensores e gateways foi o que se segue:
 
-![Distância Sensores Gateways](../images/SensorsDistancia.jpg)
+![Distância Sensores Gateways](https://i.imgur.com/G2JVj9Y.jpg)
 
 ## Visualização dos Dados
 
 Embora fora do âmbito do projeto, foi desenvolvida uma plataforma para a visualização dos dados, através de um *dashboard* em `Node-Red` num servidor do INESC TEC.
 
-![Node-Red](../images/NodeRed.jpg)
+![Node-Red](https://i.imgur.com/8UHnAzB.jpg)
 
 Os dados da Quinta do Crasto no *dashboard* desenvolvido.
 
-![Dashboard](../images/dashboard.jpg)
-
+![Dashboard](https://i.imgur.com/xScXNGg.jpg)
 
 ## Node-Red
 

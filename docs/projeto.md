@@ -13,24 +13,24 @@ Com os requisitos dos locais como sendo a altitude, ligação à rede e alguma a
 
 #### Localização das Gateways
 
-![Gateways Local](../images/GatewaysLoc.jpg)
+![Gateways Local](https://i.imgur.com/DEqbIPo.jpg)
 
 
 ### Gateway Capela de S. Vicente da Galafura
 
 
-![Gateway 01](../images/20201106_103335.jpg)
+![Gateway 01](https://i.imgur.com/ISbsYJy.jpg)
 
 
 ### Gateway Quinta do Seixo
 
 
-![Gateway 02](../images/IMG_20201106_125408.jpg)
+![Gateway 02](https://i.imgur.com/Br5GtSe.jpg)
 
 ### Gateway Quinta do Crasto
 
 
-![Gateway 02](../images/IMG_20201106_163901.jpg)
+![Gateway 02](https://i.imgur.com/0VpMzZy.jpg)
 
 
 
@@ -49,25 +49,25 @@ Foram desenvolvidos nove módulos sensores, quatro com sensores Watermark, três
 
 ### Quinta do Seixo
 
-![Seixo01](../images/20201106_124316.jpg)
+![Seixo01](https://i.imgur.com/IQjsL0R.jpg)
 
-![Seixo02](../images/20201106_125040.jpg)
+![Seixo02](https://i.imgur.com/ItINMLK.jpg)
 
-![Seixo03](../images/20201106_125056.jpg)
+![Seixo03](https://i.imgur.com/fHUjTRU.jpg)
 
 ### Quinta do Infantado
 
-![Infantado01](../images/20201106_151835.jpg)
+![Infantado01](https://i.imgur.com/XP0JxW6.jpg)
 
-![Infantado02](../images/20201106_151841.jpg)
+![Infantado02](https://i.imgur.com/hgBiMHn.jpg)
 
 ### Quinta do Crasto
 
-![Crasto01](../images/20201106_165847.jpg)
+![Crasto01](https://i.imgur.com/NZJy2Nw.jpg)
 
-![Crasto02](../images/IMG_20201106_164702.jpg)
+![Crasto02](https://i.imgur.com/73wZ1La.jpg)
 
-![Crasto03](../images/20201106_165839.jpg)
+![Crasto03](https://i.imgur.com/p1hmyKN.jpg)
 
 
 
