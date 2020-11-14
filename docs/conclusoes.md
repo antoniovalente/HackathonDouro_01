@@ -1,9 +1,12 @@
+<script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS_CHTML"></script>
+        
 # Conclusões 
 
 * Todos os sensores colocados nas quatro Quintas do Douro comunicaram os seus dados,
 apesar de uma gateway (Quinta do Crasto) não ter estado operacional
 
-* Um sensor na Quinta do Seixo comunicou os seus dados através da gateway da Galafura (9,8 km) o que dá uma área de cobertura de aproximadamente 300 km^2
+* Um sensor na Quinta do Seixo comunicou os seus dados através da gateway da Galafura (9,8 km) o que dá uma área de cobertura de aproximadamente \\(300 km^2)\\)
 
 * A rede de comunicações baseada em LoRaWAN mostra-se, assim, uma possível mais-valia para a 
 implementação de IoT na Região Demarcada do Douro
@@ -14,7 +17,8 @@ democratizadora, colaborativa e inclusiva, com uma grande capacidade de estímul
 * Toda a documentação estará disponível em https://github.com/antoniovalente/HackathonDouro_01
 e em https://hackathon-douro-porto-desafio-1.readthedocs.io/
 
-  
+# Trabalho Futuro
+
 
 
 
