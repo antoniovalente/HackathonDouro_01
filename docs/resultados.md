@@ -23,6 +23,12 @@ O panorama das comunicações entre sensores e gateways foi o que se segue:
 
 ![Distância Sensores Gateways](https://i.imgur.com/G2JVj9Y.jpg)
 
+## Resultados de Cobertura
+
+Foi elaborado um teste de cobertura das gateways (Galafura e Quinta do Seixo) utilziado o [TTN Mapper](https://ttnmapper.org/).
+
+![Cobertura Gateways](https://i.imgur.com/uxdEQrq.png)
+
 ## Visualização dos Dados
 
 Embora fora do âmbito do projeto, foi desenvolvida uma plataforma para a visualização dos dados, através de um *dashboard* em `Node-Red` num servidor do INESC TEC.
