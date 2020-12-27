@@ -29,6 +29,8 @@ Foi elaborado um teste de cobertura das gateways (Galafura e Quinta do Seixo) ut
 
 ![Cobertura Gateways](https://i.imgur.com/uxdEQrq.png)
 
+![Cobertura Gateways 2](https://i.imgur.com/mMzYgNs.png)
+
 ## Visualização dos Dados
 
 Embora fora do âmbito do projeto, foi desenvolvida uma plataforma para a visualização dos dados, através de um *dashboard* em `Node-Red` num servidor do INESC TEC.
